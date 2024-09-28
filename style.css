@@ -1,0 +1,93 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+  display: inline-block;
+  background-color: antiquewhite;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+}
+.nav:hover{
+  background-color: aquamarine;
+}
+div ul li{
+    margin: 0 60px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: azure;
+    text-align: center;
+    width: 300px;
+    border: 1px;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 10px;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+.form-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+.form-control label {
+    flex: 0 0 150px; /* Lebar label tetap */
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: justify;
+  }
+  
+.form-control input {
+    flex: 1; /* Input akan mengisi sisa ruang */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.form-control button {
+    background-color: #aff115;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+.form-control button:hover {
+    background-color: #0a7cf5;
+  }
+  /* Styling untuk tombol tambah */
+.btn {
+  display: inline-block;
+  padding: 10px 50px;
+  margin-right: 1200px;
+  background-color: #4CAF50; /* Warna latar belakang hijau */
+  color: white; /* Warna teks putih */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px; /* Membuat sudut tombol melengkung */
+  font-size: 16px; /* Ukuran teks */
+  font-weight: bold; /* Membuat teks lebih tebal */
+  border: none; /* Tanpa border */
+  cursor: pointer; /* Menampilkan ikon tangan saat hover */
+  transition: background-color 0.3s ease; /* Animasi transisi */
+}
+
+.btn:hover {
+  background-color: #45a049; /* Warna latar belakang saat hover */
+}
